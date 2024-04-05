@@ -5,6 +5,6 @@ sql:
       engine: "postgresql"
       gen:
           go:
-              package: "sqlc"
+              package: "db"
               out: "./db/sqlc"
               emit_json_tags: true
